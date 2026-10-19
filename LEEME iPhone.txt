@@ -1,0 +1,13 @@
+AULA MER PARA IPHONE
+
+Esta carpeta contiene la versión web móvil instalable (PWA). No es un archivo IPA firmado. Para que Safari permita instalarla y pueda funcionar sin conexión, hay que publicarla en una dirección HTTPS.
+
+INSTALACIÓN EN IPHONE
+1. Publica el contenido de esta carpeta en un alojamiento HTTPS (por ejemplo, una página nueva e independiente en GitHub Pages o Cloudflare Pages).
+2. Abre la URL publicada con Safari en el iPhone y espera a que cargue por completo una vez.
+3. Pulsa Compartir > Añadir a pantalla de inicio. Si aparece, activa «Abrir como app web» y pulsa Añadir.
+4. Abre Aula MER desde el nuevo icono. Después de la primera carga, la teoría y los ejercicios quedan disponibles sin conexión. El progreso se guarda en ese dispositivo.
+
+No mezcles esta carpeta con el servicio PIN de Cloudflare ni reemplaces la página actual del Diseñador MER. Publícala como sitio separado. Esta carpeta conserva la aplicación educativa; no incluye el servicio PIN ni sincroniza progreso entre dispositivos.
+
+Para una app nativa .ipa se necesita compilar en macOS con Xcode y firmar con una cuenta/certificados de Apple apropiados. La distribución para dispositivos registrados, TestFlight o App Store sigue el flujo oficial de Apple.
